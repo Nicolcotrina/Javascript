@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.barra {
+    background-color: #383838;
+    height: 45px;
+    width: 50%;
+    margin: 130px auto;
+    box-shadow: inset 6px 6px 12px #303030,
+        inset -6px -6px 12px #404040;
+    overflow: hidden;
+    border: none;
+    border-radius: 20rem;
+}
+
+.progreso {
+    height: 100%;
+    width: 0;
+    background-color: pink;
+    box-shadow: 0 0 10px pink,
+         0 0 20px pink;
+    display: block;
+    border-radius: 20rem;
+}
+
+.porcentaje {
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transform: translatey(100px);
+    color: pink;
+}
+
+body.celebracion {
+    background-image: url("../img/imagen.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
